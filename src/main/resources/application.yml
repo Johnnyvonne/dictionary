@@ -1,0 +1,11 @@
+
+spring:
+  application:
+    name: dictionary
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/dictionary
+    username: postgres
+    password: postgres
+server:
+  port: 8080
